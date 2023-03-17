@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     # Steps in job
     steps:
-      # Get code from repo
+      # Get code from repository
       - name: Checkout code
         uses: actions/checkout@v1
       # Install NodeJS
